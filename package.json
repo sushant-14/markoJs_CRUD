@@ -1,0 +1,36 @@
+{
+  "name": "igorsbookstore",
+  "version": "1.0.0",
+  "description": "This project is based on Alura's project, which the purpose is only for my study",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore *.marko.js",
+    "clean": "rmdir /s /q node_modules",
+    "reinstall": "npm run clean && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorgrv/IgorsBookstore.git"
+  },
+  "author": "Igorgrv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorgrv/IgorsBookstore/issues"
+  },
+  "homepage": "https://github.com/igorgrv/IgorsBookstore#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "marko": "^4.23.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sqlite3": "^5.0.0",
+    "uuid": "^3.3.2"
+  }
+}
